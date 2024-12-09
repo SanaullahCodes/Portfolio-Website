@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="images/cap.png.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <title>Sanaullah- Developer Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">MyPortfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection section" id="home">
+        <div class="leftsection">
+          Hi, My name is <span class="purple">Sanaullah</span>
+          <div>&amp I am</div>
+          <span id="element"></span>
+          <div class="bton" id="resumebtn">
+            <!-- Add resume path here  -->
+            <a href="images/Resume.pdf">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Download Resume
+            </a>
+          </div>
+        </div>
+        <div class="rightsection">
+          <!-- Add Your own profile/picture  -->
+          <img src="images/dev.png.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="midsection section" id="about">
+        <span class="text-gray">What I have Studied</span>
+        <h1>Educational Qualifications</h1>
+        <div>
+          <div class="btns">
+            <button
+              type="submit"
+              class="btn1"
+              id="sscbtn"
+              onclick="toggleContainer('red')"
+            >
+              SSC
+            </button>
+          </div>
+          <div class="container cont hide" id="red">
+            <h3>Dawn Public School & College</h3>
+            <br />
+            <p>Total Marks: 1100</p>
+            <br />
+            <p>Obt Marks : 875</p>
+            <br />
+            <p>Percentage : 79%</p>
+            <br />
+            <p>Grade : "A"</p>
+          </div>
+          <div>
+            <button
+              type="button"
+              class="btn2"
+              id="hsscbtn"
+              onclick="toggleContainer('green')"
+            >
+              HSSC
+            </button>
+          </div>
+          <div class="container1 cont1 hide" id="green">
+            <h3>Punjab Group Of Colleges</h3>
+            <br />
+            <p>Total Marks: 1100</p>
+            <br />
+            <p>Obt Marks : 666</p>
+            <br />
+            <p>Percentage : 60%</p>
+            <br />
+          </div>
+          <div>
+            <button
+              type="button"
+              class="btn3"
+              onclick="toggleContainer('blue',)"
+            >
+              Bachelor
+            </button>
+          </div>
+          <div class="container2 cont2 hide" id="blue">
+            <h3>University Of Lahore</h3>
+            <br />
+            <p>Deptt : IT</p>
+            <br />
+            <p>Program : BS.SE</p>
+            <br />
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection section" id="services">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="images/pngwing.com.png" alt="" />
+            <div class="vertical-tittle">HTML Developer (2016-2018)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium, nam sapiente iste modi dignissimos dolorum, minus
+              repellendus totam ipsum amet harum accusantium hic.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="./images/htmlcss.jpeg" alt="" />
+            <div class="vertical-tittle">HTML Developer (2016-2018)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium, nam sapiente iste modi dignissimos dolorum, minus
+              repellendus totam ipsum amet harum accusantium hic.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="./images/JS.png" alt="" />
+            <div class="vertical-tittle">HTML Developer (2016-2018)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium, nam sapiente iste modi dignissimos dolorum, minus
+              repellendus totam ipsum amet harum accusantium hic.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="./images/Github.png" alt="" />
+            <div class="vertical-tittle">HTML Developer (2016-2018)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Laudantium, nam sapiente iste modi dignissimos dolorum, minus
+              repellendus totam ipsum amet harum accusantium hic.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="contact" class="section">
+      <div id="footer">
+        <div class="footer1">
+          <h3>
+            Sanaullah's Developer <br />
+            <span>Portfolio</span>
+          </h3>
+          <hr />
+          <div class="Privacy">Privacy Policy</div>
+        </div>
+        <div class="footer2">
+          <h3>SITE MAP</h3>
+          <ul>
+            <li>My Products</li>
+            <li>My Services</li>
+            <li>Gallery</li>
+            <li>Support</li>
+          </ul>
+          <br />
+          <div class="copy">Copyright &#169; All rights Reserved</div>
+        </div>
+        <div class="footer3">
+          <input
+            type="text"
+            placeholder="Email Address"
+            id="inputtxt"
+          /><br /><br />
+          <button id="subscribe" type="button">Subscribe</button>
+          <br />
+          <div class="icons">
+            <a href="#" class="fa-brands fa-facebook"></a>
+            <a href="#" class="fa-brands fa-twitter"></a>
+            <a href="#" class="fa-brands fa-whatsapp"></a>
+            <a href="#" class="fa-brands fa-skype"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
